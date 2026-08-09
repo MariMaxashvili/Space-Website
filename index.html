@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/imgs/favicon-planet.svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Space Website</title>
+  </head>
+  <body>
+    <canvas id="stars" class="body__stars"></canvas>
+    <header class="header">
+      <h1 class="header__title">Celestia Noire</h1>
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a class="header__link" href="">Celestial Residences</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__link" href="">Stellar Circle</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__link" href="">Archive</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__link" href="">Observatory</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__link" href="">Genesis</a>
+        </li>
+        <li class="header__nav-item">
+          <button class="header__button">Login</button>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <h2 class="hero__title">
+          Beyond <span class="hero__title--earth">Earth</span>, Into
+          <span class="hero__title--inf">Infinity</span>
+        </h2>
+        <p class="hero__text">
+          A hyper-luxury digital experience designed for visionaries, dreamers,
+          and the elite few who dare to explore the cosmos. Welcome to the
+          future of space exploration.
+        </p>
+        <div class="hero__buttons">
+          <button class="hero__btn hero__btn--primary">
+            Enter The Experience
+          </button>
+          <button class="hero__btn hero__btn--secondary">Watch Teaser</button>
+        </div>
+      </section>
+    </main>
+    <script src="js/starField.js"></script>
+  </body>
+</html>
