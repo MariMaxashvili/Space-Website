@@ -34,4 +34,6 @@ function initStarfield(canvasId, starCount = 150) {
   requestAnimationFrame(draw);
 }
 
-initStarfield("stars", 150);
+window.addEventListener("load", () => {
+  initStarfield("stars", 150);
+});
