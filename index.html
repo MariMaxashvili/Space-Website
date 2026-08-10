@@ -16,33 +16,33 @@
     <title>Space Website</title>
   </head>
   <body>
-    <div class="bg-wrapper">
-      <canvas id="stars" class="body__stars"></canvas>
-    </div>
-    <header class="header">
-      <h1 class="header__title">Celestia Noire</h1>
-      <ul class="header__nav">
-        <li class="header__nav-item">
-          <a class="header__link" href="">Celestial Residences</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__link" href="">Stellar Circle</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__link" href="">Archive</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__link" href="">Observatory</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__link" href="">Genesis</a>
-        </li>
-        <li class="header__nav-item">
-          <button class="header__button">Login</button>
-        </li>
-      </ul>
-    </header>
-    <main class="main">
+    <div class="hero-wrapper">
+      <div class="bg-wrapper">
+        <canvas id="stars" class="body__stars"></canvas>
+      </div>
+      <header class="header">
+        <h1 class="header__title">Celestia Noire</h1>
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a class="header__link" href="">Celestial Residences</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="">Stellar Circle</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="">Archive</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="">Observatory</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="">Genesis</a>
+          </li>
+          <li class="header__nav-item">
+            <button class="header__button">Login</button>
+          </li>
+        </ul>
+      </header>
       <section class="hero">
         <h2 class="hero__title">
           Beyond <span class="hero__title--earth">Earth</span>, Into
@@ -58,6 +58,72 @@
             Enter The Experience
           </button>
           <button class="hero__btn hero__btn--secondary">Watch Teaser</button>
+        </div>
+      </section>
+    </div>
+
+    <main class="main">
+      <section class="voyages">
+        <div class="voyages__container">
+          <h3 class="voyages__title">PRIVATE SPACE VOYAGES</h3>
+          <p class="voyages__text">
+            Embark on extraordinary journeys beyond Earth's atmosphere with our
+            elite aerospace partners.
+          </p>
+
+          <div class="voyages__grid">
+            <div class="voyages__card">
+              <img
+                class="voyages__card-img"
+                src="assets/imgs/Orbital Luxury Experience.png"
+                alt="Orbital Luxury"
+              />
+              <h4 class="voyages__card-title">Orbital Luxury Experience</h4>
+              <p class="voyages__card-text">
+                A 3-day orbital journey with panoramic Earth views, zero-gravity
+                suite, and champagne service at apogee.
+              </p>
+              <div class="voyages__card-footer">
+                <span class="voyages__card-price">$28.5M per person</span>
+                <button class="voyages__card-btn">Preview Journey</button>
+              </div>
+            </div>
+
+            <div class="voyages__card">
+              <img
+                class="voyages__card-img"
+                src="assets/imgs/Lunar Orbit Expedition.png"
+                alt="Lunar Orbit"
+              />
+              <h4 class="voyages__card-title">Lunar Orbit Expedition</h4>
+              <p class="voyages__card-text">
+                Circle the moon on a 6-day journey with private suites, gourmet
+                dining, and exclusive lunar photography sessions.
+              </p>
+              <div class="voyages__card-footer">
+                <span class="voyages__card-price">$75M per person</span>
+                <button class="voyages__card-btn">Preview Journey</button>
+              </div>
+            </div>
+
+            <div class="voyages__card">
+              <img
+                class="voyages__card-img"
+                src="assets/imgs/Edge of Space Experience.png"
+                alt="Edge of Space"
+              />
+              <h4 class="voyages__card-title">Edge of Space Experience</h4>
+              <p class="voyages__card-text">
+                A 2-hour suborbital flight reaching 100km altitude with 5
+                minutes of weightlessness and Earth curvature views.
+              </p>
+              <div class="voyages__card-footer">
+                <span class="voyages__card-price">$450K per person</span>
+                <button class="voyages__card-btn">Preview Journey</button>
+              </div>
+            </div>
+          </div>
+          <button class="voyages__explore-btn">Explore All Voyages</button>
         </div>
       </section>
     </main>

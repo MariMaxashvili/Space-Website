@@ -35,5 +35,5 @@ function initStarfield(canvasId, starCount = 150) {
 }
 
 window.addEventListener("load", () => {
-  initStarfield("stars", 150);
+  initStarfield("stars", 200);
 });
