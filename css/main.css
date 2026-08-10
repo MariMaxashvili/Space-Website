@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Aquire";
+  src: url("../assets/fonts/AquireLight-YzE0o.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Aquire";
+  src: url("../assets/fonts/Aquire-BW0ox.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Aquire";
+  src: url("../assets/fonts/AquireBold-8Ma60.otf") format("opentype");
+  font-weight: 700;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+h3 {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}

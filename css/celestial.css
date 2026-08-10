@@ -1,0 +1,141 @@
+html {
+  background: #030712;
+}
+
+.residences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2rem; */
+}
+
+.residences__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+  height: auto;
+  padding: 2.2rem;
+  gap: 1.5rem;
+}
+
+.residences__title {
+  margin: 0;
+}
+
+.residence-card__title {
+  font-size: 1rem;
+}
+
+.residences__subtitle {
+  max-width: 60%;
+  text-align: center;
+  color: #d1d5db;
+}
+
+.residences__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates the 2-column layout */
+  gap: 2rem;
+}
+
+.residence-card {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 0.75rem;
+  border: 1px solid #ffd7001a;
+  overflow: hidden;
+}
+
+.residence-card__hero {
+  position: relative;
+}
+
+.residence-card__hero img {
+  width: 100%;
+  height: 14.5rem;
+  object-fit: cover;
+  filter: brightness(85%);
+}
+
+.residence-card__badge {
+  position: absolute;
+  bottom: 4.2rem;
+  left: 1rem;
+  color: #ffffff;
+  padding: 0.25rem 0.85rem;
+  border-radius: 50px;
+  background-color: #8a2be2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.residence-card__title {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.residence-card__specs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.residence-card__label {
+  color: #9ca3af;
+}
+
+.residence-card__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.residence-card__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #d1d5db;
+}
+
+.residence-card__price {
+  color: #ffd700;
+}
+
+.residence-card__btn {
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #8a2be2cc, #4b0082cc);
+  border: 1px solid #902eec;
+  font-size: 0.85rem;
+  color: white;
+}
+.residence-card__btn:hover {
+  background: linear-gradient(90deg, #902eec, #6302a8);
+}
+.residences__button {
+  padding: 0.7rem 2rem;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #8a2be2cc, #4b0082cc);
+  border: 1px solid #8a2be2;
+  font-size: 0.85rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  transition: background 0.3s;
+}
+.residences__button:hover {
+  background: linear-gradient(90deg, #892be2, #4c0082);
+  box-shadow: 0.2px 0.2px 1rem 0.2rem #892be2;
+}
